@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/appleboy/CodeGPT/openai"
-	"github.com/appleboy/CodeGPT/prompt"
-	"github.com/appleboy/CodeGPT/util"
+	"github.com/caoychn/CodeGPT/openai"
+	"github.com/caoychn/CodeGPT/prompt"
+	"github.com/caoychn/CodeGPT/util"
 	"github.com/appleboy/com/file"
 
 	"github.com/spf13/viper"

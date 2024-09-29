@@ -1,8 +1,8 @@
 # CodeGPT
 
-[![Lint and Testing](https://github.com/appleboy/CodeGPT/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/appleboy/CodeGPT/actions/workflows/testing.yml)
+[![Lint and Testing](https://github.com/caoychn/CodeGPT/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/caoychn/CodeGPT/actions/workflows/testing.yml)
 [![codecov](https://codecov.io/gh/appleboy/CodeGPT/branch/main/graph/badge.svg)](https://codecov.io/gh/appleboy/CodeGPT)
-[![Go Report Card](https://goreportcard.com/badge/github.com/appleboy/CodeGPT)](https://goreportcard.com/report/github.com/appleboy/CodeGPT)
+[![Go Report Card](https://goreportcard.com/badge/github.com/caoychn/CodeGPT)](https://goreportcard.com/report/github.com/caoychn/CodeGPT)
 
 ![cover](./images/cover.png)
 
@@ -25,7 +25,7 @@ A CLI written in [Go](https://go.dev) language that writes git commit messages o
 * Support for excluding files from the git diff command.
 * Support commit message translation into another language (support `en`, `zh-tw` or `zh-cn`).
 * Support socks proxy or custom network HTTP proxy.
-* Support [model lists](https://github.com/appleboy/CodeGPT/blob/bf28f000463cfc6dfa2572df61e1b160c5c680f7/openai/openai.go#L18-L38) like `gpt-4`, `gpt-3.5-turbo` ...etc.
+* Support [model lists](https://github.com/caoychn/CodeGPT/blob/bf28f000463cfc6dfa2572df61e1b160c5c680f7/openai/openai.go#L18-L38) like `gpt-4`, `gpt-3.5-turbo` ...etc.
 * Support do a brief code review.
 
 ![code review](./images/code_review.png)
@@ -45,7 +45,7 @@ Install from [Chocolatey](https://chocolatey.org/install) on Windows
 choco install codegpt
 ```
 
-The pre-compiled binaries can be downloaded from [release page](https://github.com/appleboy/CodeGPT/releases).Change the binary permissions to `755` and copy the binary to the system bin directory. Use the `codegpt` command as shown below.
+The pre-compiled binaries can be downloaded from [release page](https://github.com/caoychn/CodeGPT/releases).Change the binary permissions to `755` and copy the binary to the system bin directory. Use the `codegpt` command as shown below.
 
 ```sh
 $ codegpt version
@@ -55,7 +55,7 @@ version: v0.4.3 commit: xxxxxxx
 Install from source code:
 
 ```sh
-go install github.com/appleboy/CodeGPT/cmd/codegpt@latest
+go install github.com/caoychn/CodeGPT/cmd/codegpt@latest
 ```
 
 ## Setup
@@ -212,7 +212,7 @@ codegpt config set openai.model meta-llama/llama-3-8b-instruct:free
 For including your app on openrouter.ai rankings and Shows in rankings on openrouter.ai, you can set the `openai.headers` in your config file.
 
 ```sh
-codegpt config set openai.headers "HTTP-Referer=https://github.com/appleboy/CodeGPT X-Title=CodeGPT"
+codegpt config set openai.headers "HTTP-Referer=https://github.com/caoychn/CodeGPT X-Title=CodeGPT"
 ```
 
 * **HTTP-Refer**: Optional, for including your app on openrouter.ai rankings.

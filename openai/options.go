@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/appleboy/CodeGPT/core"
+	"github.com/caoychn/CodeGPT/core"
 
 	"github.com/sashabaranov/go-openai"
 )

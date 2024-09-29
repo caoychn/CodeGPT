@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/appleboy/CodeGPT/core"
-	"github.com/appleboy/CodeGPT/git"
-	"github.com/appleboy/CodeGPT/prompt"
-	"github.com/appleboy/CodeGPT/util"
+	"github.com/caoychn/CodeGPT/core"
+	"github.com/caoychn/CodeGPT/git"
+	"github.com/caoychn/CodeGPT/prompt"
+	"github.com/caoychn/CodeGPT/util"
 
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"

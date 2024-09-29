@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/appleboy/CodeGPT/git"
+	"github.com/caoychn/CodeGPT/git"
 
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"

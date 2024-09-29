@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/appleboy/CodeGPT/util"
+	"github.com/caoychn/CodeGPT/util"
 	"github.com/appleboy/com/file"
 )
 
